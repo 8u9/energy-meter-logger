@@ -12,14 +12,13 @@ except ImportError:
 
 setup(name='energy_meter_logger',
       version=0.1,
-      description='Read Energy Meter data using RS485 Modbus '+
-      'and store in local database.',
+      description='Read Energy Meter data using RS485 Modbus',
       long_description=readme,
-      url='https://github.com/samuelphy/energy-meter-logger',
+      url='https://github.com/8u9/energy-meter-logger.git',
       download_url='',
-      author='Samuel Vestlin',
-      author_email='samuel@elphy.se',
-      platforms='Raspberry Pi',
+      author='Leonardo Barbieri',
+      author_email='leonardo@barbieri.pro',
+      platforms='Debian',
       classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
